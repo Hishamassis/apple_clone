@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 500px;
+    background-color:black;
+    width:auto;
+    height: 50px;
+    position: sticky;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 10px 10px;
+    color:white;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #555;
+    color:black;
+}
+li a.active{
+    background-color: white;
+    color: black;
+}
+li img{
+    height:15px;
+    width: 15px;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.main img{
+    height: 900px;
+    width: 100%;
+}
