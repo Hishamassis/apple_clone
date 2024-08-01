@@ -7,6 +7,9 @@ div.navbar{
     left: 0px;
     padding: 10px;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul{
@@ -270,6 +273,7 @@ margin-bottom: 0;
 .ipro p{
 margin: 10px;
 font-size: 30px;
+text-shadow: 3px 3px 3px black;
 }
 
 /* iwatch */
@@ -327,6 +331,7 @@ margin-bottom: 0;
 .cardi p{
 margin: 10px;
 font-size: 30px;
+text-shadow: 3px 3px 3px black;
 }
 
 /* trade in */
@@ -355,6 +360,7 @@ margin-bottom: 0;
 .intrade p{
 margin: 10px;
 font-size: 30px;
+text-shadow: 3px 3px 3px black;
 }
 
 .footer{
